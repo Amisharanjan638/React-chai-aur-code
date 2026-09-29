@@ -7,7 +7,7 @@ import './App.css'
 function App() {
  
 //let counter = 15
-const [counter,setcounter]= useState(5)
+const [counter,setcounter]= useState(15)
 
 const addValue =()=> {
  // console.log("value added", counter)
@@ -15,7 +15,19 @@ const addValue =()=> {
   if(counter<20) {
 
   
+ {/* setcounter(counter+1)
 setcounter(counter+1)
+setcounter(counter+1)
+setcounter(counter+1) */}
+
+setcounter(prevCounter => prevCounter+1)
+setcounter(prevCounter => prevCounter+1)
+setcounter(prevCounter => prevCounter+1)
+setcounter(prevCounter => prevCounter+1)
+
+
+
+
 }
 }
 
